@@ -1,8 +1,21 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(array)
+  array.each do |a|
+   puts [array.index]
+  end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(calls)
+  planeteer_calls = []
+  i=0
+  while i < calls.length 
+    planteer_calls << yield |i|
+      puts calls.upper[i]"!"
+      i = i + 1
+  end
+
+end
+
+       # code an argument here
   # Your code here
 end
 
